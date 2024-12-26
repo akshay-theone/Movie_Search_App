@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <input
+        type="text"
+        placeholder="Enter Movie Name"
+        id="input"
+        class="input"
+      />
+      <button onclick="search()" id="searchBtn" class="searchBtn">
+        Search
+      </button>
+    </header>
+    <div class="hero hidden">
+      <div class="left">
+        <p id="title"></p>
+        <p id="desc"></p>
+        <br />
+        <p id="year"></p>
+        <p id="rated"></p>
+        <p id="released"></p>
+        <p id="genre"></p>
+        <p id="director"></p>
+        <p id="actor"></p>
+        <p id="award"></p>
+        <p id="language"></p>
+        <p id="rating"></p>
+      </div>
+      <img src="" alt="movieposter" class="poster" />
+    </div>
+    <p class="error text-4xl text-center"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
